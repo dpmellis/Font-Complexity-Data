@@ -1,7 +1,9 @@
 # Font-Complexity-Data
 DrawBot program for extracting data from fonts, plus sample data.
 
-I wrote the program in DrawBot to extract glyph level data from fonts. Right now it just looks at the lower and uppercae letters in the English alphabet, but this can be easily changed. 
+I wrote the program in DrawBot to extract glyph level data from fonts. Right now it just looks at the lower and uppercase letters in the English alphabet, but this can be easily changed. 
+
+IMPORTANT: 
 
 It creates a csv file with a row for every glyph with the following fields:
 
