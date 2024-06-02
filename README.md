@@ -8,21 +8,35 @@ It creates a csv file with a row for every glyph with the following fields.
 Font Name	— PostScript font name
 
 Family	  — Name of the family
+
 Serif     — Font Category
 
 Weight	  — Weight, I use the description in the name, unless something else makes sene
+
 Optical Size — Optical Size, I use text as a default
+
 Italic     — Roman or Italic
+
 Font Width — Width 
+
 Style	     — Concatenation of Italic and Weight, useful for data analysis, could also concatenate Width and Optical Size
+
 Case	     — Upper or lowercase
+
 Glyph Name  
+
 Glyph Width  — This includes the side bearings
-Glyph Height — This should be 1000, but for some fonts it isn't, this variation I don't think is significatn
+
+Glyph Height — This should be 1000, but for some fonts it isn't, this variation
+I don't think is significant
 Shape Width	 — The width of just the glyph shape, no side bearings
+
 Shape Height —	The height of just the glyph shape
+
 Shape Area   — The area of a solid em square is 1
+
 On Curve Points	— No duplicates
+
 Total Points — Duplicates are allowed for offcurve points
 
 Sample row:
