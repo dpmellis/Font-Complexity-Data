@@ -3,7 +3,9 @@ DrawBot program for extracting data from fonts, plus sample data.
 
 I wrote the program in DrawBot to extract glyph level data from fonts. Right now it just looks at the lower and uppercase letters in the English alphabet, but this can be easily changed. 
 
-IMPORTANT: 
+**IMPORTANT:** The number of on-curve (and total points) can't be meaningfully compared between TrueType and PostScript fonts. The former uses quadratic Bézier curves and the latter cubic. Because of the this TrueType outlines will always have a much larger number of points that PostScript outlines. 
+See for instance
+https://typo.social/@nicksherman/112405054308950066=
 
 It creates a csv file with a row for every glyph with the following fields:
 
