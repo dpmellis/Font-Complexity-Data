@@ -43,8 +43,8 @@ On Curve Points	— No duplicates
 Total Points — Duplicates are allowed for offcurve points
 
 
-Sample row:
-
+**Sample row:
+**
 Font Name	— ACaslonPro-Regular
 
 Family	  — Adobe Caslon Pro
