@@ -7,7 +7,7 @@ I wrote the program in DrawBot to extract glyph level data from fonts. Right now
 See for instance
 https://typo.social/@nicksherman/112405054308950066=
 
-It creates a csv file with a row for every glyph with the following fields:
+The prorgam creates a csv file with a row for every glyph with the following fields:
 
 Font Name	— PostScript font name
 
