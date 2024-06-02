@@ -6,8 +6,10 @@ I wrote the program in DrawBot to extract glyph level data from fonts. Right now
 It creates a csv file with a row for every glyph with the following fields.
 
 Font Name	— PostScript font name
+
 Family	  — Name of the family
 Serif     — Font Category
+
 Weight	  — Weight, I use the description in the name, unless something else makes sene
 Optical Size — Optical Size, I use text as a default
 Italic     — Roman or Italic
