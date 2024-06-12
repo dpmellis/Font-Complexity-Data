@@ -5,6 +5,9 @@ I wrote the program in DrawBot to extract glyph level data from fonts. Right now
 
 The real usefulness of the program is not to find large scale patterns in data but to quickly identify statistically anomalous fonts or glyphs that would reward closer study. 
 
+I made a tableau dashboard that shows some of the data here:
+https://public.tableau.com/app/profile/daniel.mellis/viz/SansandSerifTypefaceComplexityAnalysis/Dashboard1
+
 **IMPORTANT:** The number of on-curve (and total points) can't be meaningfully compared between TrueType and PostScript fonts. The former uses quadratic Bézier curves and the latter cubic. Because of the this TrueType outlines will always have a much larger number of points that PostScript outlines. 
 See for instance
 https://typo.social/@nicksherman/112405054308950066=
